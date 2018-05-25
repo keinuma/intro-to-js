@@ -1,29 +1,29 @@
-let ary1 = ['Sato', 'Takae', 'Osada', 'hio', 'Saitoh', 'Sato'];
-let ary2 = [3, 1, 43, 123, 5];
+const ary1 = ['Sato', 'Takae', 'Osada', 'hio', 'Saitoh', 'Sato'];
+const ary2 = [3, 1, 43, 123, 5];
 
-console.log(ary1)
-console.log(ary1.length)
-console.log(ary1.toSource())
-console.log(ary1.toString())
-console.log(ary1.join('|'))
-console.log(ary1.indexOf('Sato'))
-console.log(ary1.indexOf(2))
-console.log(ary1.concat(ary1))
-console.log(ary1.concat(ary2))
-console.log(ary1.slice(2))
-console.log(ary1.slice(1, 2))
-console.log(ary1.slice(1, 3))
-console.log(ary1.fill(1, 'yuuki'))
-console.log(ary1)
-console.log(ary1.fill('Sugu'))
-console.log(ary2)
-console.log(ary2.pop())
-console.log(ary2.push(777))
-console.log(ary2)
-console.log(ary2.shift())
-console.log(ary2)
-console.log(ary2.unshift(123123))
-console.log(ary2)
-console.log(ary2.sort())
-console.log(ary2)
-console.log(ary2.reverse())
+console.log(ary1);
+console.log(ary1.length);
+console.log(ary1.toSource());
+console.log(ary1.toString());
+console.log(ary1.join('|'));
+console.log(ary1.indexOf('Sato'));
+console.log(ary1.indexOf(2));
+console.log(ary1.concat(ary1));
+console.log(ary1.concat(ary2));
+console.log(ary1.slice(2));
+console.log(ary1.slice(1, 2));
+console.log(ary1.slice(1, 3));
+console.log(ary1.fill(1, 'yuuki'));
+console.log(ary1);
+console.log(ary1.fill('Sugu'));
+console.log(ary2);
+console.log(ary2.pop());
+console.log(ary2.push(777));
+console.log(ary2);
+console.log(ary2.shift());
+console.log(ary2);
+console.log(ary2.unshift(123123));
+console.log(ary2);
+console.log(ary2.sort());
+console.log(ary2);
+console.log(ary2.reverse());

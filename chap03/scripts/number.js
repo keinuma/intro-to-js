@@ -1,8 +1,8 @@
-let num1 = 255;
+const num1 = 255;
 console.log(num1.toString(16));
 console.log(num1.toString(8));
 
-let num2 = 123.45678;
+const num2 = 123.45678;
 console.log(num2.toExponential(2));
 console.log(num2.toFixed(3));
 console.log(num2.toPrecision(10));

@@ -1,13 +1,17 @@
 {
-    "non-console": 0,
     "env": {
-        "browser": true
+        "browser": true,
+        "es6": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
         "ecmaVersion": 2017
     },
     "rules": {
+        "no-console": 0,
+        "no-alert": 0,
+        "no-debugger": 1,
+        "no-regex-spaces": 0,
         "indent": [
             "error",
             "tab"
@@ -17,12 +21,13 @@
             "unix"
         ],
         "quotes": [
-            "error",
-            "double"
+            2,
+            "single"
         ],
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "prefer-const": 2
     }
 }

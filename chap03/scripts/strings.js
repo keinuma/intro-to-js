@@ -1,4 +1,4 @@
-let str1 = 'にわにはにわとりがいる';
+const str1 = 'にわにはにわとりがいる';
 
 console.log(str1.indexOf('にわ'));
 console.log(str1.lastIndexOf('にわ'));
@@ -9,9 +9,9 @@ console.log(str1.startsWith('にわ'));
 console.log(str1.endsWith('にわ'));
 console.log(str1.includes('にわ'));
 
-let str2 = 'Wingsプロジェクト';
-let str3 = '叱られて';
-let str4 = '   wings    ';
+const str2 = 'Wingsプロジェクト';
+const str3 = '叱られて';
+const str4 = '   wings    ';
 
 console.log(str2.charAt(4));
 console.log(str2.slice(5, 8));
