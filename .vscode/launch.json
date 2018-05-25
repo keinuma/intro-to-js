@@ -5,9 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Node",
             "type": "node",
             "request": "launch",
-        }
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/chap03/scripts/sort_clazz.js"
+        },
     ]
 }
